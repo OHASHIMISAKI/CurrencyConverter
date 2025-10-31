@@ -8,7 +8,7 @@ namespace CurrencyConverter
     {
         static async Task Main(string[] args)
         {
-            // ★★★ここに自分のAPIキーを設定してください★★★
+            
             const string API_KEY = "adcf9b84d1f340d48d919457";
 
             var exchangeRateService = new ExchangeRateService(API_KEY);
